@@ -8,12 +8,30 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Weather App</title>
 </head>
 <body>
+    <div class="wrapper">
+        <nav id = "sidebar">
+            <div class = "sidebar-header">
+                <h1>Weather Dashboard</h1>
+            </div>
+            <ul class = "list-unstyled components">
+                <li>
+                    <form id = "form">
+                        <input id ="newCity" type = "text">
+                        <input id ="citySearch" type = "submit" placeholder ="Search weather conditions in a city">
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </div>
     
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
