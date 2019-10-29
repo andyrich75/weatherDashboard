@@ -30,3 +30,16 @@
     display: flex;
     height: 100vh;
 }
+/* setting the order of the weather and forcast so that weather is first*/
+.weather{
+    order: 1;
+    flex-basis: 25%;
+    background-color: #F7B733;
+    padding: 10px;
+    line-height: 80px;
+  }
+  .forecast{
+    order:2;  
+  }
+  
+
