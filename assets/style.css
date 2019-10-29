@@ -12,3 +12,17 @@
     color: #fff;
     min-height: 100vh;
 }
+/*this is the box for search*/
+#newCity {
+    width: 100%;
+}
+/* added color and width for submit*/
+#citySearch { 
+    width: 100%;
+    background: #F7B733;
+}
+.btn {
+    text-align: left;
+    color: #fff;
+    display: block;
+}
