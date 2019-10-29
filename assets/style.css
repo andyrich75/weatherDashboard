@@ -1,0 +1,14 @@
+/* General styling*/
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+/*sidebar styling*/
+#sidebar {
+    max-width: 250px;
+    background-color: #4ABDAC;
+    padding: 20px;
+    color: #fff;
+    min-height: 100vh;
+}
