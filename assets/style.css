@@ -41,5 +41,37 @@
   .forecast{
     order:2;  
   }
+  .main-content{
+    width: 100%;
+    background: #DFDCe3;
+  }
+  .forecast ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:0px;
+  }
+  .forecast ul li{
+    background: #fC4A1A;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding:10px;
+    min-width: 80px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  /*MEDIA to adjust width at 580px */
+  @media only screen and (max-width: 580px) {
+    #sidebar{
+      width: 200px;
+      height: auto;
+    }
   
-
+    #sidebar h1 {
+      font-size: 32px;
+    }
+    .jumbotron{
+      display: block;
+      height: auto;
+    }
+  }
